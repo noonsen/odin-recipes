@@ -1,0 +1,142 @@
+html {    
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+body {
+  background-color: #2E3440;
+  display: flexbox;
+}
+
+
+
+/* Top Section */
+.base-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.left-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #F9FAF8; 
+}
+
+.right-link {
+  color: #E5E7EB;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-text {
+  margin: 50px; /* Increase the margin value to create more space */
+}
+
+.text-header {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+}
+
+.head-image {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 50px; /* Add margin-top to create space above the head image */
+  margin-bottom: 50px; /* Add margin-bottom to create space below the head image */
+}
+
+.head-image img {
+  border: solid #E5E7EB;
+  border-radius: 10px;
+}
+
+.subtext-header {
+  color: #E5E7EB;
+  text-align: left;
+  justify-content: center;
+  max-width: 200px;
+}
+
+
+
+/* Mid Section */
+.main-header {
+  color:#F9FAF8;
+}
+
+.base-cards {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.image-card {
+  display:flex;
+  flex-direction: column;
+  margin: 25px;
+  
+} 
+
+.image-card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: solid #E5E7EB;
+  
+}
+
+.image-info {
+  color:#E5E7EB;
+  justify-content: center;
+
+}
+
+
+
+
+/* Quote Section */
+base-quote {
+  display: flex;
+  width: 500rem;
+  background-color: #4C566A;
+  align-items: center;
+  justify-content: center;
+  max-width: 50rem;
+  padding: 100px;
+  margin: 10px auto;
+}
+
+.text-quote {
+  color: #E5E7EB;
+  font-size: 24px;
+  font-style: italic;
+
+}
+
+/* Sign Up Section */
+
+.signup-head {
+  color: #E5E7EB;
+}
+
+.signup-subtext {
+  color: #E5E7EB;
+}
+
+.footer-text {
+  color: #E5E7EB;
+}
